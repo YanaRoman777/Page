@@ -1,0 +1,14 @@
+.funnel-link {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: center no-repeat;
+    background-image: url(../../../icons/funnel.svg);
+    border:none;
+}
+
+.funnel-link:hover {
+    background: center no-repeat;
+    background-image: url(../../../icons/funnel_hover.svg);
+    cursor: pointer;
+}

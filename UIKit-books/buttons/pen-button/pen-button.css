@@ -1,0 +1,13 @@
+.pen-button {
+    width: 32px;
+    height: 32px;
+    background: #E4E4E4 center no-repeat;
+    background-image: url(../../icons/pen.svg);
+    border-radius: 12px;
+    border:none;
+}
+
+.pen-button:hover {
+    background: #4347E7 center no-repeat;
+    background-image: url(../../icons/pen_white.svg);
+}

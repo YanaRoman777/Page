@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./UIKit-button.css">
+    <title>UIKit</title>
+</head>
+<body class="page">
+    <h1>UIKit</h1>
+    <h2>Button</h2>
+    <h4>General-buttons</h4>
+    <button class="general-button">General Button</button>
+    <button class="general-button" disabled="disabled">Disabled</button>
+    <h4>Secondary-buttons</h4>
+    <button class="secondary">SECONDARY</button>
+    <button class="secondary" disabled="disabled">Disabled</button>
+    <h4>Clear-button</h4>
+    <button class="clear">CLEAR</button>
+    <h4>Search-button</h4>
+    <button class="search"></button>
+    <h4>Filter-button</h4>
+    <button class="filter-button">Filter<img src="./icons/notclear.svg" class="filter-notclear" alt=""></img></button>
+    <h4>Arrow-left-buttons</h4>
+    <button class="arrow-left-button"></button>
+    <button class="arrow-left-button" disabled="disabled"></button>
+    <h4>Text-buttons</h4>
+    <button class="text-button">1</button>
+    <button class="text-button" disabled="disabled">1</button>
+    <h4>Pen-button</h4>
+    <button class="pen-button"></button>
+    <h4>Arrow-up-button</h4>
+    <button class="arrow-up-button"></button>
+    <h4>Exit-button</h4>
+    <button class="exit-button"></button>
+    <h4>logo-button</h4>
+    <div class="logo-button">
+        <button class="logo-button-normal"></button>
+        <div class="logo-button-hover"></div>
+    </div>
+    <h4>Pen-big-button</h4>
+    <button class="pen-big-button"></button>
+    <h4>Email-button</h4>
+    <button class="email-button">name@domain.com</button>
+    <div class="section">
+        <h4>Tokenecho-button</h4>
+        <button class="tokenecho-button">tokenecho.com</button>
+        <h4>More-button</h4>
+        <button class="more-button"></button>
+        <h4>Chb-button</h4>
+        <button class="chb-button"></button>
+        <input type="checkbox">
+        <h4>Contact-menu</h4>
+        <div class="contact-menu">
+            <a href="" class="contact-tg"></a>
+            <a href="" class="contact-tw"></a>
+            <a href="" class="contact-home"></a>
+        </div>
+    </div>
+    <h4>Link</h4>
+    <a href="" class="close-link"></a>
+    <a href="" class="copy-link"></a>
+    <a href="" class="funnel-link"></a>
+    <h4>Yellow-button</h4>
+    <div class="yellow-button">
+        Whale  <button href="" class="close-link"></button>
+    </div>
+    
+
+
+    <div class="navigation">
+        <h4>Navigation</h4>
+        <nav><a href="#" class="menu">Menu</a></nav>
+        <h4>Tabs</h4>
+        <div class="tabs">
+            <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+            <label for="tab-btn-1" class="tabs__label">Normal</label>
+            <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+            <label for="tab-btn-2" class="tabs__label">Hover</label>
+            <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+            <label for="tab-btn-3" class="tabs__label">Active</label>
+        
+            <div id="content-1" class="tabs__content">
+              Содержимое 1...
+            </div>
+            <div id="content-2" class="tabs__content">
+              Содержимое 2...
+            </div>
+            <div id="content-3" class="tabs__content">
+              Содержимое 3...
+            </div>
+        </div>
+        <h4>Path</h4>
+        <dir class="path">
+            <dir class="path-navigation">
+                <dir class="path-button">
+                    <button class="path-button-up"></button>
+                    <button class="path-button-dowt"></button>
+                </dir>
+                <p class="path-button-text">Normal Standart</p>
+            </dir>
+            <dir class="path">
+                <dir class="path-button">
+                    <button class="path-button-up"></button>
+                    <button class="path-button-dowt" disabled="disabled"></button>
+                </dir>
+                <p class="path-button-text">Normal Up</p>
+            </dir>
+            <dir class="path">
+                <dir class="path-button">
+                    <button class="path-button-up" disabled="disabled"></button>
+                    <button class="path-button-dowt"></button>
+                </dir>
+                <p class="path-button-text">Normal Down</p>
+            </dir>
+        </dir>
+        
+    </div>
+    
+    <form>
+        <div class="form">
+            <h3>Forms</h3>
+            <fieldset class="form__input-container">
+                <label for="Email"class="form__heading">Email</label>
+                <input type="email" id="Email" class="form__email">
+            </fieldset>
+            <fieldset class="form__input-container">
+            <input type="text" class="form__search">
+            </fieldset>
+            <fieldset class="form__input-container ">
+                <div class=""><p>0</p></div>
+                <div class=""><p>2,300,123</p></div>
+                <input type="range" min="0" class="form__range">
+                <input type="range" max="2,300,123" class="form__range">
+            </fieldset>
+            <fieldset class="form__select">
+                <select>
+                    <option>20 ROWS</option>
+                    <option>50 ROWS</option>
+                    <option>100 ROWS</option>
+                </select>
+            </fieldset>
+            <form id="search_form"><input type="text" placeholder="Search" /><a id="close_filter" onclick="document.getElementById('search_form').style.display='none'">×</a></form>
+        </div>
+    </form>
+
+   
+</body>
+</html>

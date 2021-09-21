@@ -1,0 +1,71 @@
+.path {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.path-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.path-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.path-button-dowt {
+    width: 6px;
+    height: 3.5px;
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_dowt.svg);
+    border:none;
+    margin: 1px;
+}
+
+.path-button-dowt:hover {
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_dowt_hover.svg);
+}
+
+.path-button-dowt:disabled,
+.path-button-dowt:disabled.disabled {
+    background-image: none;
+}
+
+.path-button-up  {
+    width: 6px;
+    height: 3.5px;
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_up.svg);
+    border:none;
+    margin: 1px;
+}
+
+.path-button-up:hover {
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_up_hover.svg);
+}
+
+.path-button-up:disabled,
+.path-button-up:disabled.disabled {
+    background-image: none;
+}
+
+.path-button-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    color: #888;
+}
+
+.path-button-text:hover {
+    color: #4347E7;
+}

@@ -1,0 +1,17 @@
+.token-info__title-blook {
+    display: grid;
+    grid-template-columns: 36px 300px;
+    grid-template-rows: 1fr;
+    gap: 24px;
+    grid-area: title;
+}
+
+@media all and (max-width: 630px) {
+    .token-info__title-blook {
+        max-width: 150px;
+        grid-template-columns: 150px;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        
+    }
+}

@@ -1,0 +1,14 @@
+.form__label {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: none;
+    position: relative;
+}
+
+.form__label:last-child {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,14 @@
+.form__buttons_user {
+    position: relative;
+    background: #fff;
+    max-width: 440px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.form__buttons_user .general-button {
+    max-width: 229px;
+    width: 100%;
+}

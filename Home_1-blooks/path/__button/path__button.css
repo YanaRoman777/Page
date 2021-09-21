@@ -1,0 +1,57 @@
+.path__button-dowt {
+    width: 6px;
+    height: 3.5px;
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_dowt.svg);
+    border:none;
+    margin: 1px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: start;
+}
+
+.path__button-dowt:hover {
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_dowt_hover.svg);
+    cursor: pointer;
+}
+
+.path__button-dowt:disabled,
+.path__button-dowt:disabled.disabled {
+    background-image: none;
+}
+
+.path__button-up  {
+    width: 6px;
+    height: 3.5px;
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_up.svg);
+    border:none;
+    margin: 1px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: end;
+}
+
+.path__button-up:hover {
+    background: center no-repeat;
+    background-image: url(../../../icons/Path_up_hover.svg);
+    cursor: pointer;
+}
+
+.path__button-up:disabled,
+.path__button-up:disabled.disabled {
+    background-image: none;
+}
+
+.path__button-text {
+    text-align: start;
+}
+
+.path__button-text:hover {
+    color: #4347E7;
+}

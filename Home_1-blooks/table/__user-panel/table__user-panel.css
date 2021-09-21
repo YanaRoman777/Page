@@ -1,0 +1,86 @@
+.table__user-panel {
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+.table__user-panel th .path {
+    justify-content: start;
+}
+
+.table__user-panel th {
+    vertical-align: top;
+    height: 64px;
+}
+
+.table__user-panel .fixeds {
+   height: 80px;
+}
+.table__user-panel th:nth-of-type(1) {
+    width: 35%;
+    text-align: start;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.table__user-panel th:nth-of-type(2) {
+    width: 35%;
+    text-align: start;
+}
+.table__user-panel th:nth-of-type(3) {
+    width: 20%;
+    text-align: start;
+}
+
+.table__user-panel th:nth-of-type(4) {
+    width: 10%;
+    text-align: start;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.table__user-panel td {
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.table__user-panel td:nth-of-type(1) {
+    text-align: start;
+    opacity: 0.5;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px
+    
+}
+
+.table__user-panel td:nth-of-type(2) {
+    text-align: start;
+}
+.table__user-panel td:nth-of-type(3) {
+    text-align: start;
+}
+
+.table__user-panel td:nth-of-type(4) {
+    text-align: start;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.table__user-panel td:nth-of-type(4) a {
+    color: #2E31BC;
+    opacity: 0.8;
+}
+
+@media all and (max-width: 768px) {
+    .table__user-panel {
+        font-size: 14px;
+        width: 728px;
+    }
+
+    .table__user-panel td {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .table__user-panel td:nth-of-type(1) span {
+        display: block;
+    }
+}

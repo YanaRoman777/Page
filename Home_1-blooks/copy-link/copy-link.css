@@ -1,0 +1,14 @@
+.copy-link {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: center no-repeat;
+    background-image: url(../../icons/copy.svg);
+    border:none;
+}
+
+.copy-link:hover {
+    background: center no-repeat;
+    background-image: url(../../icons/copy_hover.svg);
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.tabs-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }

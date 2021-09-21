@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset=utf-8>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="./User.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User panel</title>
+</head>
+<body class="body">
+    <div class="page">
+        <header class="navigation navigation__user">
+            <nav>
+                <a href="./Token.html" class="token_echo"><img src="./icons/KIT_big.svg" alt="KIT"> Token echo</a>
+            </nav>
+            <nav class="menu-blook">
+              <div class="menu">
+                    <a href="./Home_1.html" class="menu__link">Tokens</a>
+                    <a href="./Token.html" class="menu__link">Echo</a>
+                    <a href="#" class="menu__link">Echoql</a>
+                    <a href="#" class="menu__link">White&nbsp;paper</a>
+                </div>
+            </nav>
+            <nav class="menu-sign_in">
+                <div class="contact">
+                    <a href="" class="contact__tg"></a>
+                    <a href="" class="contact__tw"></a>
+                </div>
+                <a data-modal="login" class="contact__sign_in">Sign in</a>
+                <button class="email-button">name@domain.com</button>
+                <button class="exit-button"></button>
+            </nav>
+            <div class="hamburger" data-modal="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <section class="user-panel-info">
+            <h2 class="user-panel-info__title">My Rating<span>15</span></h2>
+            <h2 class="user-panel-info__title">My Projects<span>None</span><span>2</span></h2>
+            <div class="user-panel-info__paragrachs">
+                <div>
+                    <p class="user-panel-info__paragrach">You can increase your rating by providing reliable information about the tokens. Or reduce otherwise.</p>
+                    <p class="user-panel-info__paragrach">If your rating is higher than that of another users, you can overwrite their edits. And they cannot overwrite yours.</p>
+                </div>
+                <p class="user-panel-info__paragrach">With high rating you can advertise your services for new projects — because your updates couldn't be rewritten by trolls. With your help, we will build a secure and decentralized listing service.</p>
+            </div>
+            <div class="user-panel-info__bottom">
+                <div class="pancakeswap">
+                    <p class="CAKE">PancakeSwap <span>CAKE</span></p>
+                    <p><span>BSD</span> 0xb646<span>534ewtr675</span><span>...</span>57a88e9</p>
+                    <button class="copy-link"></button>
+                </div>
+                <div class="pancakeswap">
+                    <p class="CAKE">PancakeSwap <span>CAKE</span></p>
+                    <p><span>BSD</span> 0xb646<span>534ewtr675</span><span>...</span>57a88e9</p>
+                    <button class="copy-link"></button>
+                </div></div>
+            <div class="user-panel-info__blook">
+            </div>
+            <a class="user-panel-info__link" id="userPanelInfoLink">Change Settings</a>
+        </section>
+        <main class="main">
+            <div class="tabs">
+                <div class="tabs-buttons">
+                    <form id="search_form" class="search_form"><input type="text" placeholder="Search" class="search_form__input"/><button data-modal="search_form__close" class="search_form__close">×</button></form>
+                    <button data-modal="search" class="search"></button>
+                    <button data-modal="chain" class="filter-button">Filter
+                        <img src="./icons/notclear.svg" class="filter-button__notclear" alt="round">
+                        </img>
+                    </button>
+                </div>
+            </div>
+            <h2 class="table__title">My Edits</h2>
+            <table class="table table__user-panel">
+                <tr class="fixed">
+                    <th>
+                        <div class="path">
+                            <button class="path__button-up"></button>
+                            <button class="path__button-dowt"></button>
+                        </div>
+                        <p class="path__button-text">Time</p>
+                    </th>
+                    <th><p>Token</p>
+                        <div class="yellow-button">
+                            0x<span>b646</span>...<span>88</span>E9
+                            <button class="close-link"></button>
+                        </div>
+                    </th>
+                    <th><p>Action</p>
+                        <div class="yellow-button">
+                            Edit  <button class="close-link"></button>
+                        </div>
+                    </th>
+                    <th><p>Changed</p></th>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="green">Add</td>
+                    <td><a href="#">Website</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="red">Community</td>
+                    <td><a href="#">Website</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td>Edit</td>
+                    <td><a href="#">Description</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="green">Add</td>
+                    <td><a href="#">Website</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="red">Delete</td>
+                    <td><a href="#">Community</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td>Edit</td>
+                    <td><a href="#">Description</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="green">Add</td>
+                    <td><a href="#">Website</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="red">Delete</td>
+                    <td><a href="#">Community</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td>Edit</td>
+                    <td><a href="#">Description</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="green">Add</td>
+                    <td><a href="#">Website</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td class="red">Delete</td>
+                    <td><a href="#">Community</a></td>
+                </tr>
+                <tr>
+                    <td>5/1/2021 <span>10:19:34</span></td>
+                    <td>0x<span>b646</span>...<span>88</span>E9
+                        <button class="copy-link"></button>
+                        <button class="funnel-link"></button>
+                    </td>
+                    <td>Edit</td>
+                    <td><a href="#">Description</a></td>
+                </tr>
+            </table>
+        </main>
+        <div class="paginator">
+            <div class="paginator__link">
+                <button class="arrow-left-button"></button>
+                <button class="text-button" disabled="disabled">1</button>
+                <button class="text-button">2</button>
+                <button class="text-button">3</button>
+                <button class="text-button">4</button>
+                <button class="text-button">5</button>
+                <button class="text-button">6</button>
+                <button class="text-button">7</button>
+                <button class="text-button">8</button>
+                <button class="text-button">9</button>
+                <button class="text-button">10</button>
+                <button class="text-button">...</button>
+                <button class="text-button">120</button>
+                <button class="arrow-right-button"></button>
+            </div>
+            <select class="select paginator__select">
+                <option class="paginator__option">20 ROWS</option>
+                <option class="paginator__option">50 ROWS</option>
+                <option class="paginator__option">100 ROWS</option>
+            </select>
+        </div>
+        <footer class="footer">
+            © 2021 Token Echo. All rights reserved.<br>
+            <a href="#" class="footer__link">Terms and conditions</a>
+        </footer>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="overlay-chain">
+        <div class="chain" id="chain">
+            <h3 class="chain__title">Filter</h3>
+            <button class="close-link modal__close"></button>
+            <form action="#" class="chain__form form">
+                <h3 class="chain__subtitle">Action</h3>
+                <div class="form__checkbox">
+                    <div>
+                        <input type="checkbox" id="add" class="form__checkbox_imput">
+                        <label  class="form__checkbox_label" for="add">Add</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="delete" class="form__checkbox_imput">
+                    <label  class="form__checkbox_label" for="delete">Delete</label>
+                </div>
+                    <div>
+                        <input type="checkbox" id="edit" class="form__checkbox_imput">
+                        <label  class="form__checkbox_label" for="edit">Edit</label>
+                    </div>
+                </div>
+                <h3 class="chain__subtitle">Changed</h3>
+                <div class="form__checkbox">
+                    <div>
+                        <input type="checkbox" id="website" class="form__checkbox_imput">
+                        <label  class="form__checkbox_label" for="website">Website</label>
+                    </div>
+                    <div>
+                        <input id="community" type="checkbox" class="form__checkbox_imput">
+                        <label  class="form__checkbox_label" for="community">Community</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="description" class="form__checkbox_imput">
+                        <label  class="form__checkbox_label" for="description">Description</label>
+                    </div>
+                </div>
+            </form>
+            <div class="form__buttons form__buttons_user">
+                <button type="submit" class="general-button form__button_up">UPDATE</button>
+                <button type="reset" class="clear form__button_clear">CLEAR</button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-login">
+        <div class="modal__login modal" id="login">
+            <h2 class="modal__title">Login</h2>
+            <button class="close-link modal__close"></button>
+            <form action="#" class="form">
+                <div class="fieldset">
+                    <label  class="form__label">Email
+                        <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Password <a href="#" data-modal="password" class="form__link_reset">Reset password</a>
+                        <input type="password" name="Password" class="form__item" required placeholder="password"></label>       
+                </div>
+                <button type="submit" class="general-button modal__button">SIGN IN</button>
+                <button type="submit" class="secondary secondary__google modal__button">SIGN IN With Google</button>
+                <a href="#" data-modal="create" class="link link_sign_in modal__link">Create an Account</a>
+            </form>
+        </div>
+    </div>
+    <div class="overlay-password">
+        <div class="modal__password modal" id="password">
+            <h2 class="modal__title">Reset Password</h2>
+            <button class="close-link modal__close"></button>
+            <form action="#" class="form">
+                <div class="fieldset">
+                    <label  class="form__label">Email
+                        <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                </div>                       
+                <button type="submit" class="general-button modal__button">Reset</button>
+                <a href="#" data-modal="loginbask" class="link link_sign_in modal__link">← Back to Sign In</a>
+            </form>
+        </div>
+    </div>
+    <div class="overlay-create">
+    <div class="modal__create modal" id="create">
+        <h2 class="modal__title">Create an Account</h2>
+        <a href="#" class="close-link modal__close"></a>
+        <form action="#" class="form">
+            <div class="fieldset">
+                <label  class="form__label">Email Address
+                    <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+            </div>
+            <div class="fieldset">
+                <label  class="form__label">Password
+                    <input type="password" name="Password" class="form__item" placeholder="Password" required></label>
+            </div>
+            <div class="fieldset">
+                <label  class="form__label">Confirm Password
+                    <input type="password" name="ConfirmPassword" class="form__item" required placeholder="Confirm Password"></label>
+                </div>
+            <button type="submit" class="general-button modal__button">Create account</button>
+            <button type="submit" class="secondary secondary__google modal__button">SIGN Up With Google</button>
+            <p class="modal__paragraph">By signing up you agree to the <a href="">Terms of Service</a></p>
+            <a href="#" class="link link_sign_in modal__link" data-modal="loginBaskBreate">Sign In</a>
+        </form>
+    </div></div>
+    <div class="overlay-hamburger">
+        <div class="modal__hamburger">
+            <div class="contact">
+                <a href="./Token.html" class="token_echo"><img src="./icons/KIT_big.svg" alt="KIT"> Token echo</a>
+                <a class="contact__sign_in contact__sign_in_mbl">Sign in</a>
+                <button class="email-button">name@domain.com</button>
+                <button class="exit-button"></button>
+                <a href="#" class="close-link modal__close"></a>
+            </div>
+            <div class="menu">
+                <a href="./Home_1.html" class="menu__link">Tokens</a>
+                <a href="./Token.html" class="menu__link">Echo</a>
+                <a href="#" class="menu__link">Echoql</a>
+                <a href="#" class="menu__link">White paper</a>
+            </div>
+            <div class="contact">
+                <a href="#" class="contact__tg"></a>
+                <a href="#" class="contact__tw"></a>
+            </div>
+            <div class="footer">
+                © 2021 Token Echo. All rights reserved.<br>
+                <a href="#" class="footer__link">Terms and conditions</a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-settings">
+        <section class="modal settings">
+            <h2 class="modal__title">Settings</h2>
+            <a href="#" class="close-link modal__close"></a>
+            <form action="#" class="form">
+                <div class="fieldset">
+                    <label  class="form__label">Username
+                        <input type="text" name="Username" class="form__item" required placeholder="Username385"></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Email
+                        <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Password
+                        <input type="password" name="OldPassword" class="form__item" required placeholder="Old Password">
+                        <input type="password" name="NewPassword" class="form__item" required placeholder="New Password">
+                        <input type="password" name="ConfirmNewPassword" class="form__item" required placeholder="Confirm New Password"></label>
+                    </div>     
+                <button type="submit" class="general-button modal__button" disabled>Save</button>
+            </form>
+        </section> 
+    </div> 
+    <a onclick="topFunction()" id="myBtn" class="arrow-up-button"></a>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./Js/script__user.js"></script>
+</body>
+</html>

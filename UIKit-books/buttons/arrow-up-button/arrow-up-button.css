@@ -1,0 +1,13 @@
+.arrow-up-button {
+    width: 36px;
+    height: 36px;
+    background: #F5F5F5 center no-repeat;
+    background-image: url(../../../icons/arrow-up.svg);
+    border-radius: 12px;
+    border:none;
+}
+
+.arrow-up-button:hover {
+    background: #4347E7 center no-repeat;
+    background-image: url(../../../icons/arrow-up_white.svg);
+}

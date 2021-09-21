@@ -1,0 +1,17 @@
+.close-link {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: center no-repeat;
+    background-image: url(../../../icons/close.svg);
+    border:none;
+}
+
+.close-link:hover {
+    background-image: url(../../../icons/close_hover.svg);
+}
+
+.close-link:disabled,
+.close-link:disabled.disabled {
+    background-image: url(../../../icons/Close_disabled.svg);
+}

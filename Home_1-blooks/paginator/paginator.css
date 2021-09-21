@@ -1,0 +1,18 @@
+@import url(./__select/paginator__select.css);
+@import url(./__link/paginator__link.css);
+
+.paginator {
+    position: relative;
+    max-width: 1360px;
+    margin: 25px auto 0;
+}
+
+@media all and (max-width: 500px) {
+    .paginator {
+        max-width: 500px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}

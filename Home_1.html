@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset=utf-8>
+	<link href="Home_1.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+</head>
+<body class="body">
+    <div class="page">
+        <header class="navigation navigation__home">
+            <nav>
+                <a href="./Token.html" class="token_echo"><img src="./icons/KIT_big.svg" alt="KIT"> Token echo</a>
+            </nav>
+            <nav class="menu-blook">
+              <div class="menu">
+                    <a href="#" class="menu__link menu__link_active">Tokens</a>
+                    <a href="./Token.html" class="menu__link">Echo</a>
+                    <a href="#" class="menu__link">Echoql</a>
+                    <a href="#" class="menu__link">White&nbsp;paper</a>
+                </div>
+            </nav>
+            <nav class="menu-sign_in">
+                <div class="contact">
+                    <a href="#" class="contact__tg"></a>
+                    <a href="#" class="contact__tw"></a>
+                </div>
+                <a data-modal="login" class="contact__sign_in">Sign in</a>
+                <button class="email-button">name@domain.com</button>
+                <button class="exit-button"></button>
+            </nav>
+            <div class="hamburger" data-modal="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <main class="main">
+            <h1 class="title">Exlpore new tokens as soon as their smart contracts appears in chain</h1>	
+            <div class="tabs">
+                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                <label for="tab-btn-1" class="tabs__label tabs__label_1">All Crypto</label>
+                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                <label for="tab-btn-2" class="tabs__label tabs__label_2">Verified</label>
+                <div id="content-1" class="tabs__content">
+                    <table class="table table__home">
+                        <tr class="fixed">
+                            <th><p>#</p></th>
+                            <th><p>Token</p></th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">Liquidity in Pools</p>
+                            </th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">24h Liquidity in</p>
+                            </th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">24h Liquidity out</p>
+                            </th>
+                            <th><p>Chain</p></th>
+                            <th><p>Created</p></th>
+                            <th><p>Media</p></th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="verified">Binance Coin <span>BNB</span></td>
+                            <td>$<span>2,300,123</span><span>2,300</span></td>
+                            <td class="green">$<span>300,233</span><span>300</span></td>
+                            <td class="red">$<span>200,900</span><span>200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>April</span><span>Apr</span> 26, 2021</td>
+                            <td class="last">
+                                <button id="more1" class="more-button"></button>
+                                <div id="popup1" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="BUSD">Binance USD <span>BUSD</span></td>
+                            <td>$ <span>2,100,004</span><span>2,100</span></td>
+                            <td class="green">$<span>400,166</span><span>400</span></td>
+                            <td class="red">$0</td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>September</span><span>Sept</span> 2, 2020</td>
+                            <td class="last">
+                                <button id="more2" class="more-button"></button>
+                                <div id="popup2" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="CAKE">PancakeSwap <span>CAKE</span></td>
+                            <td>$ <span>1,900,103</span><span>1,900</span></td>
+                            <td class="green">$<span>800,233</span><span>800</span></td>
+                            <td class="red">$<span>1,200,900</span><span>1,200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td>May 14, 2020</td>
+                            <td class="last">
+                                <button id="more3" class="more-button"></button>
+                                <div id="popup3" class="popup contact-menu">
+                                    <a href="#" class="contact-tg disabled"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="verified">Binance Coin <span>BNB</span></td>
+                            <td>$<span>2,300,123</span><span>2,300</span></td>
+                            <td class="green">$<span>300,233</span><span>300</span></td>
+                            <td class="red">$<span>200,900</span><span>200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>April</span><span>Apr</span> 26, 2021</td>
+                            <td class="last">
+                                <button id="more4" class="more-button"></button>
+                                <div id="popup4" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="BUSD">Binance USD <span>BUSD</span></td>
+                            <td>$ <span>2,100,004</span><span>2,100</span></td>
+                            <td class="green">$<span>400,166</span><span>400</span></td>
+                            <td class="red">$0</td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>September</span><span>Sept</span> 2, 2020</td>
+                            <td class="last">
+                                <button id="more5" class="more-button"></button>
+                                <div id="popup5" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td class="CAKE">PancakeSwap <span>CAKE</span></td>
+                            <td>$ <span>1,900,103</span><span>1,900</span></td>
+                            <td class="green">$<span>800,233</span><span>800</span></td>
+                            <td class="red">$<span>1,200,900</span><span>1,200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td>May 14, 2020</td>
+                            <td class="last">
+                                <button id="more6" class="more-button"></button>
+                                <div id="popup6" class="popup contact-menu">
+                                    <a href="#" class="contact-tg disabled"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td class="verified">Binance Coin <span>BNB</span></td>
+                            <td>$<span>2,300,123</span><span>2,300</span></td>
+                            <td class="green">$<span>300,233</span><span>300</span></td>
+                            <td class="red">$<span>200,900</span><span>200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>April</span><span>Apr</span> 26, 2021</td>
+                            <td class="last">
+                                <button id="more7" class="more-button"></button>
+                                <div id="popup7" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td class="BUSD">Binance USD <span>BUSD</span></td>
+                            <td>$ <span>2,100,004</span><span>2,100</span></td>
+                            <td class="green">$<span>400,166</span><span>400</span></td>
+                            <td class="red">$0</td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>September</span><span>Sept</span> 2, 2021</td>
+                            <td class="last">
+                                <button id="more8" class="more-button"></button>
+                                <div id="popup8" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td class="CAKE">PancakeSwap <span>CAKE</span></td>
+                            <td>$ <span>1,900,103</span><span>1,900</span></td>
+                            <td class="green">$<span>800,233</span><span>800</span></td>
+                            <td class="red">$<span>1,200,900</span><span>1,200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td>May 14, 2020</td>
+                            <td class="last">
+                                <button id="more9" class="more-button"></button>
+                                <div id="popup9" class="popup contact-menu">
+                                    <a href="#" class="contact-tg disabled"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td class="verified">Binance Coin <span>BNB</span></td>
+                            <td>$<span>2,300,123</span><span>2,300</span></td>
+                            <td class="green">$<span>300,233</span><span>300</span></td>
+                            <td class="red">$<span>200,900</span><span>200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>April</span><span>Apr</span> 26, 2021</td>
+                            <td class="last">
+                                <button id="more10" class="more-button"></button>
+                                <div id="popup10" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td class="BUSD">Binance USD <span>BUSD</span></td>
+                            <td>$ <span>2,100,004</span><span>2,100</span></td>
+                            <td class="green">$<span>400,166</span><span>400</span></td>
+                            <td class="red">$0</td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>September</span><span>Sept</span> 2, 2020</td>
+                            <td class="last">
+                                <button id="more11" class="more-button"></button>
+                                <div id="popup11" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td class="CAKE">PancakeSwap <span>CAKE</span></td>
+                            <td>$ <span>1,900,103</span><span>1,900</span></td>
+                            <td class="green">$<span>800,233</span><span>800</span></td>
+                            <td class="red">$<span>1,200,900</span><span>1,200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td>May 14, 2020</td>
+                            <td class="last">
+                                <button id="more12" class="more-button"></button>
+                                <div id="popup12" class="popup contact-menu">
+                                    <a href="#" class="contact-tg disabled"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td class="verified">Binance Coin <span>BNB</span></td>
+                            <td>$<span>2,300,123</span><span>2,300</span></td>
+                            <td class="green">$<span>300,233</span><span>300</span></td>
+                            <td class="red">$<span>200,900</span><span>200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>April</span><span>Apr</span> 26, 2021</td>
+                            <td class="last">
+                                <button id="more13" class="more-button"></button>
+                                <div id="popup13" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td class="BUSD">Binance USD <span>BUSD</span></td>
+                            <td>$ <span>2,100,004</span><span>2,100</span></td>
+                            <td class="green">$<span>400,166</span><span>400</span></td>
+                            <td class="red">$0</td>
+                            <td class="grey">Binance SC</td>
+                            <td><span>September</span><span>Sept</span> 2, 2020</td>
+                            <td class="last">
+                                <button id="more14" class="more-button"></button>
+                                <div  id="popup14" class="popup contact-menu">
+                                    <a href="#" class="contact-tg"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td class="CAKE">PancakeSwap <span>CAKE</span></td>
+                            <td>$ <span>1,900,103</span><span>1,900</span></td>
+                            <td class="green">$<span>800,233</span><span>800</span></td>
+                            <td class="red">$<span>1,200,900</span><span>1,200</span></td>
+                            <td class="grey">Binance SC</td>
+                            <td>May 14, 2020</td>
+                            <td class="last">
+                                <button id="more15" class="more-button"></button>
+                                <div id="popup15" class="popup contact-menu">
+                                    <a href="#" class="contact-tg disabled"></a>
+                                    <a href="#" class="contact-tw disabled"></a>
+                                    <a href="#" class="contact-home"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="content-2" class="tabs__content">
+                Содержимое 2...
+                </div>
+                <div class="tabs-buttons">
+                    <form id="search_form" class="search_form">
+                        <input type="text" placeholder="Search" class="search_form__input">
+                        <button data-modal="search_form__close" class="search_form__close">×</button>
+                    </form>
+                    <button data-modal="search" class="search"></button>
+                    <button data-modal="chain" class="filter-button">Filter
+                        <img src="./icons/notclear.svg" class="filter-button__notclear" alt="round"></img>
+                    </button>
+                </div>
+            </div>
+            <div class="paginator">
+                <div class="paginator__link">
+                    <button class="arrow-left-button"></button>
+                    <button class="text-button" disabled="disabled">1</button>
+                    <button class="text-button">2</button>
+                    <button class="text-button">3</button>
+                    <button class="text-button">4</button>
+                    <button class="text-button">5</button>
+                    <button class="text-button">6</button>
+                    <button class="text-button">7</button>
+                    <button class="text-button">8</button>
+                    <button class="text-button">9</button>
+                    <button class="text-button">10</button>
+                    <button class="text-button">...</button>
+                    <button class="text-button">120</button>
+                    <button class="arrow-right-button"></button>
+                </div>
+                <select class="select paginator__select">
+                    <option class="paginator__option">20 ROWS</option>
+                    <option class="paginator__option">50 ROWS</option>
+                    <option class="paginator__option">100 ROWS</option>
+                </select>
+            </div>
+            <div class="partners">
+                <h2 class="partners__title">Partners</h2>
+                <div class="partners__logo-zone">
+                    <a href="https://detax.io" target="_blank" class="partners__logo"></a>
+                    <a href="https://metahash.org" target="_blank" class="partners__logo"></a>
+                    <a href="https://defidrop.org" target="_blank" class="partners__logo"></a>
+                    <a href="https://hashex.org" target="_blank" class="partners__logo"></a>
+                    <a href="https://twitter.com/solid_group_1" target="_blank" class="partners__logo"></a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            © 2021 Token Echo. All rights reserved.<br>
+            <a href="#" class="footer__link">Terms and conditions</a>
+        </footer>
+        <div class="overlay" id="overlay"></div>
+        <div class="overlay-chain">
+        <div class="chain" id="chain">
+            <h3 class="chain__title">Filter</h3>
+            <h3 class="chain__subtitle">Chain</h3>
+            <button class="close-link modal__close"></button>
+            <form action="#" class="chain__form form">
+                <select class="select chain__select">
+                    <option>Binance SC</option>
+                </select>
+                <section>
+                    <div class="rangeslider fieldset form__section">
+                        <label  class="form__label" for="range_1">Liquidity in Pools</label>
+                        <input class="min InputRange" id="range_1" name="range_1" type="range" min="0" max="2300123" value="0"/>
+                        <input class="max InputRange" name="range_1" type="range" min="0" max="2300123" value="2300123"/>
+                        <span class="range_min light left">0</span>
+                        <span class="range_max light right">2.300.123</span>
+                    </div>
+                    <div class="rangeslider fieldset form__section">
+                        <label  class="form__label" for="range_2">24H Liquidity in</label>
+                        <input class="min InputRange" id="range_2" name="range_2" type="range" min="0" max="800233" value="0" />
+                        <input class="max InputRange" name="range_2" type="range" min="0" max="800233" value="800233"/>
+                        <span class="range_min light left">0</span>
+                        <span class="range_max light right">800.233</span>
+                    </div>
+                    <div class="rangeslider fieldset form__section">
+                        <label  class="form__label" for="range_3">24H Liquidity out</label>
+                        <input class="min InputRange" id="range_3" name="range_3" type="range" min="0" max="1200900" value="0" />
+                        <input class="max InputRange" name="range_3" type="range" min="0" max="1200900" value="1200900"/>
+                        <span class="range_min light left">0</span>
+                        <span class="range_max light right">1.200.900</span>
+                    </div>
+                </section>
+                <div class="fieldset form__created">
+                    <h3 class="chain__subtitle">Created</h3>
+                    <p id="date3"></p>
+                </div>
+            </form>    
+                <div class="form__buttons">
+                    <button type="submit" class="general-button form__button_up">UPDATE</button>
+                    <button type="reset" class="clear form__button_clear">CLEAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-login">
+            <div class="modal__login modal" id="login">
+                <h2 class="modal__title">Login</h2>
+                <button class="close-link modal__close"></button>
+                <form action="#" class="form">
+                    <div class="fieldset">
+                        <label  class="form__label">Email
+                            <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                    </div>
+                    <div class="fieldset">
+                        <label  class="form__label">Password <a href="#" data-modal="password" class="form__link_reset">Reset password</a>
+                            <input type="password" name="Password" class="form__item" required placeholder="password"></label>       
+                    </div>
+                    <button type="submit" class="general-button modal__button">SIGN IN</button>
+                    <button type="submit" class="secondary secondary__google modal__button">SIGN IN With Google</button>
+                    <a href="#" data-modal="create" class="link link_sign_in modal__link">Create an Account</a>
+                </form>
+            </div>
+        </div>
+        <div class="overlay-password">
+            <div class="modal__password modal" id="password">
+                <h2 class="modal__title">Reset Password</h2>
+                <button class="close-link modal__close"></button>
+                <form action="#" class="form">
+                    <div class="fieldset">
+                        <label  class="form__label">Email
+                            <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                    </div>                       
+                    <button type="submit" class="general-button modal__button">Reset</button>
+                    <a href="#" data-modal="loginbask" class="link link_sign_in modal__link">← Back to Sign In</a>
+                </form>
+            </div>
+        </div>
+        <div class="overlay-create">
+        <div class="modal__create modal" id="create">
+            <h2 class="modal__title">Create an Account</h2>
+            <a href="#" class="close-link modal__close"></a>
+            <form action="#" class="form">
+                <div class="fieldset">
+                    <label  class="form__label">Email Address
+                        <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Password
+                        <input type="password" name="Password" class="form__item" placeholder="Password" required></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Confirm Password
+                        <input type="password" name="ConfirmPassword" class="form__item" required placeholder="Confirm Password"></label>
+                    </div>
+                <button type="submit" class="general-button modal__button">Create account</button>
+                <button type="submit" class="secondary secondary__google modal__button">SIGN Up With Google</button>
+                <p class="modal__paragraph">By signing up you agree to the <a href="">Terms of Service</a></p>
+                <a href="#" class="link link_sign_in modal__link" data-modal="loginBaskBreate">Sign In</a>
+            </form>
+        </div></div>
+        <div class="overlay-hamburger">
+            <div class="modal__hamburger">
+                <div class="contact">
+                    <a href="./Token.html" class="token_echo"><img src="./icons/KIT_big.svg" alt="KIT"> Token echo</a>
+                    <a class="contact__sign_in contact__sign_in_mbl">Sign in</a>
+                    <button class="email-button">name@domain.com</button>
+                    <button class="exit-button"></button>
+                    <a href="#" class="close-link modal__close"></a>
+                </div>
+                <div class="menu">
+                    <a href="#" class="menu__link menu__link_active">Tokens</a>
+                    <a href="./Token.html" class="menu__link">Echo</a>
+                    <a href="#" class="menu__link">Echoql</a>
+                    <a href="#" class="menu__link">White paper</a>
+                </div>
+                <div class="contact">
+                    <a href="#" class="contact__tg"></a>
+                    <a href="#" class="contact__tw"></a>
+                </div>
+                <div class="footer">
+                    © 2021 Token Echo. All rights reserved.<br>
+                    <a href="#" class="footer__link">Terms and conditions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a onclick="topFunction()" id="myBtn" class="arrow-up-button"></a>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="Js/datepicker.js"></script>
+    <script type="text/javascript" src="Js/eye.js"></script>
+    <script type="text/javascript" src="Js/layout.js?ver=1.0.2"></script>
+    <script src="./Js/script.js"></script>
+</body>
+
+</html>

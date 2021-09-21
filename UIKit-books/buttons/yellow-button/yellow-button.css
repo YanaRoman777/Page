@@ -1,0 +1,25 @@
+.yellow-button {
+    width: max-content;
+    height: 20px;
+    background: #F0B90B;
+    border-radius: 6px;
+    padding: 3px 6px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.yellow-button .close-link {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 1px;
+    background-image: url(../../../icons/Close_yellow.svg)
+}
+
+.yellow-button .close-link:hover {
+    background-image: url(../../../icons/Close_yellow_hover.svg)
+}

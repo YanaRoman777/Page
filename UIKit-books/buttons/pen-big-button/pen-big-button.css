@@ -1,0 +1,13 @@
+.pen-big-button {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF center no-repeat;
+    background-image: url(../../../icons/pen.svg);
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.pen-big-button:hover {
+    background-image: url(../../../icons/pen_purple.svg);
+}

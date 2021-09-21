@@ -1,0 +1,6 @@
+.filter-button__notclear {
+    display: none;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+  }

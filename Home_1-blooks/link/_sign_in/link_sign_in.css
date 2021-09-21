@@ -1,0 +1,18 @@
+.link_sign_in {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    border-top: 1px solid #EAEAEA;
+    padding-top: 20px;
+}
+
+@media all and (max-width: 475px) {
+    .link_sign_in {
+        border-top: none;
+        align-content: end;
+    }
+}

@@ -1,0 +1,38 @@
+.fixed {
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    text-align: left;
+    line-height: 120%;
+    height: 48px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    right: 0;
+    background: #FFF;
+    z-index: 5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.fixedmobail {
+    width: 56px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    z-index: 5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    font-size: 0px;
+    line-height:-9999px;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+.fixedmobail span {
+    width: 0px;
+}
+
+.fixedmobail:nth-of-type(2).verified:after {
+    display: none;
+}
+ 

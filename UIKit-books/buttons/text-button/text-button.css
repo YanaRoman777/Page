@@ -1,0 +1,25 @@
+.text-button {
+    width: 40px;
+    height: 40px;
+    background: #F5F5F5 center no-repeat;
+    border-radius: 12px;
+    border:none;
+    color: #2E31BC;
+}
+
+.text-button:hover {
+    background: #4347E7 center no-repeat;
+    color: #FFFFFF;
+}
+
+.text-button:active,
+.text-button:active.active {
+    background: #303290 center no-repeat;
+    color: #FFFFFF;
+}
+
+.text-button:disabled,
+.text-button:disabled.disabled {
+    background: #8B8B9C center no-repeat;
+    color: #FFFFFF;
+}

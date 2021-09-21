@@ -1,0 +1,9 @@
+.popup {
+    display: none;
+}
+
+@media all and (max-width: 500px)  {
+    .popup {
+        display: flex;
+    }
+}

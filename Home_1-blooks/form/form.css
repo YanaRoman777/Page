@@ -1,0 +1,15 @@
+@import url(./__buttoms/form__buttons.css);
+@import url(./__item/form__item.css);
+@import url(./__label/form__label.css);
+@import url(./__link_reset/form__link_reset.css);
+@import url(./__section/form__section.css);
+@import url(./__button_up/form__button_up.css);
+@import url(./__created/form__created.css);
+@import url(./__buttoms/_token/form__buttons_token.css);
+@import url(./__buttoms/_user/form__buttons_user.css);
+
+@media all and (max-width: 425px) {
+    .modal .form {
+        margin-top: 26px;
+    }
+}

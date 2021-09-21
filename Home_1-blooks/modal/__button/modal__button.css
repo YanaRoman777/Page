@@ -1,0 +1,7 @@
+.modal__button {
+    display: block;
+    max-width: 380px;
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+}

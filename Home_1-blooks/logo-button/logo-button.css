@@ -1,0 +1,33 @@
+.logo-button {
+    display: inline-block;
+    position: relative;
+    width: 48px;
+    height: 48px; 
+}
+
+.logo-button-normal {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF center no-repeat;
+    background-image: url(../../icons/KIT.svg);
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.logo-button-hover {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -3px;
+    right: -3px;
+    background: #E4E4E4 center no-repeat;
+    background-image: url(../../icons/pen_grey.svg);
+    border-radius: 6px; 
+}
+
+.logo-button:hover .logo-button-hover  {
+    background: #4347E7 center no-repeat;
+    background-image: url(../../icons/pen_white_small.svg);
+    cursor: pointer;
+}

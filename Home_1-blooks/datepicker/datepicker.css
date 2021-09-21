@@ -1,0 +1,141 @@
+div.datepicker {
+	position: relative;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 120%;
+	text-align: center;
+	width: 150px;
+	height: 242px;
+	cursor: default;
+	top: 0;
+	left: 0;
+	display: none;
+	color: #000000;
+}
+.datepickerContainer {
+	background: #FFFFFF;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	
+}
+
+.datepickerHidden {
+	display: none;
+}
+
+.datepickerDoW {
+	opacity: 0.5;
+}
+
+div.datepicker table {
+	border-collapse:collapse;
+}
+div.datepicker a {
+	color: #000;
+	text-decoration: none;
+	cursor: default;
+	outline: none;
+}
+div.datepicker table td {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	
+}
+div.datepicker th {
+	text-align: center;
+	color: #000000;
+	font-weight: normal;
+	text-align: right;
+}
+
+div.datepicker tbody th {
+	text-align: right;
+}
+div.datepicker tbody a {
+	display: block;
+}
+.datepickerDays a {
+	width: 13px;
+	height: 21px;
+	padding-right: 5.5px;
+	padding-left: 5.5px;
+}
+
+.datepickerMonths a span {
+	text-transform: uppercase;
+}
+
+.datepickerYears a,
+.datepickerMonths a{
+	width: 44px;
+	line-height: 36px;
+	height: 36px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 120%;
+	color: #000000;
+
+}
+td.datepickerNotInMonth a {
+	color: #666;
+}
+tbody.datepickerDays td.datepickerSelected{
+	background: #F9E0A0;
+	border-radius: 3px;
+}
+
+div.datepicker a:hover,
+div.datepicker a:hover {
+	color: rgb(54, 52, 52);
+	cursor: pointer;
+}
+div.datepicker td.datepickerNotInMonth a:hover {
+	color: rgb(54, 52, 52);
+}
+div.datepicker tbody th {
+	text-align: center;
+}
+.datepickerSpace div {
+	width: 20px;
+}
+.datepickerGoNext a,
+.datepickerGoPrev a,
+.datepickerMonth a {
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 120%;
+	padding-bottom: 10px;
+}
+.datepickerGoNext a {
+	float: right;
+	width: 20px;
+}
+.datepickerGoPrev a {
+	float: left;
+	width: 20px;
+}
+table.datepickerViewDays tbody.datepickerMonths,
+table.datepickerViewDays tbody.datepickerYears,
+table.datepickerViewDays th:first-child,
+table.datepickerViewDays th.datepickerGoNext{
+	display: none;
+}
+
+table.datepickerViewMonths tbody.datepickerDays,
+table.datepickerViewMonths tbody.datepickerYears,
+table.datepickerViewMonths tr.datepickerDoW {
+	display: none;
+}
+table.datepickerViewYears tbody.datepickerDays,
+table.datepickerViewYears tbody.datepickerMonths,
+table.datepickerViewYears tr.datepickerDoW {
+	display: none;
+}

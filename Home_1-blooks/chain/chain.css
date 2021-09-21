@@ -1,0 +1,27 @@
+@import url(./__form/chain__form.css);
+@import url(./__form_item/chain__form_item.css);
+@import url(./__select/chain__select.css);
+@import url(./__title/chain__title.css);
+@import url(./__subtitle/chain__subtitle.css);
+
+.chain {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 428px;
+  height: 100vh;
+  flex-direction: column;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+  background-color:#FFFFFF;
+  box-sizing: border-box;
+  max-width: 440px;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: auto;
+  z-index: 10;
+}
+ .chain section {
+  white-space:normal;
+ }

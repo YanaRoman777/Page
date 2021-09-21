@@ -1,0 +1,28 @@
+.user-panel-info__link {
+    background: no-repeat;
+    background-image: url(../../../icons/user-panel-info__link.svg);
+    background-position: 1px 9px;
+    padding: 1px 26px;
+    font-size: 16px;
+    color: #2E31BC;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 9px;
+    width: max-content;
+}
+
+.user-panel-info__link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@media all and (max-width: 630px) {
+    .user-panel-info__link {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}

@@ -1,0 +1,24 @@
+.chb-button {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.chb-button:hover {
+    background: #D9DAEF;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.chb-button:active,
+.chb-button:active.active {
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    background: center no-repeat;
+    background-image: url(../../../icons/mark.svg);
+    
+}

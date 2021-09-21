@@ -1,0 +1,6 @@
+.secondary__google {
+    background: #F5F5F5 no-repeat;
+    background-image: url(../../../icons/google.svg);
+    background-position: 10px 12px;
+    height: 40px;
+}

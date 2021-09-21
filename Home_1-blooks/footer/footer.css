@@ -1,0 +1,16 @@
+.footer {
+    margin: 50px auto 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.66;
+}
+.footer__link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #000000;
+}

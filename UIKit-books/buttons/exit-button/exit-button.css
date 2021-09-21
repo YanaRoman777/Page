@@ -1,0 +1,13 @@
+.exit-button {
+    width: 40px;
+    height: 32px;
+    background: #F5F5F5 center no-repeat;
+    background-image: url(../../../icons/exit.svg);
+    border-radius: 12px;
+    border:none;
+}
+
+.exit-button:hover {
+    background: #4347E7 center no-repeat;
+    background-image: url(../../../icons/exit_white.svg);
+}

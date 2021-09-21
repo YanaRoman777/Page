@@ -1,0 +1,45 @@
+.form__checkbox_imput:checked, 
+.form__checkbox_imput:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+
+
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #E6E6E6;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #E6E6E6;
+    background-color: #ffffff;
+    border-radius: 5px;
+    background: center no-repeat;
+    background-image: url(../../../../icons/mark.svg);
+}
+
+input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}

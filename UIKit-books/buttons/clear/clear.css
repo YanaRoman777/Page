@@ -1,0 +1,23 @@
+.clear {
+    width: 139px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2E31BC;
+}
+
+.clear:hover {
+    border: #EFEFEF;
+    color: #4347E7;
+    border: 1px solid #EFEFEF;
+}

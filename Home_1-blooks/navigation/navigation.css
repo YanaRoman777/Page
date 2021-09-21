@@ -1,0 +1,24 @@
+.navigation {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(3, max-content);
+    justify-content:space-between;
+    justify-items: auto;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1360px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1380px) {
+    .navigation {
+        max-width: 1254px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .navigation {
+        max-width: 1154px;
+    }
+}

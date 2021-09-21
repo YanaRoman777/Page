@@ -1,0 +1,21 @@
+.tabs {
+  position: relative;
+  margin-top: 30px;
+}
+
+.tabs>input[type="radio"] {
+    display: none;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой */
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2 {
+  display: block;
+}
+
+  /* изменить цвет текста выбранной кнопки и ее границы */
+#tab-btn-1:checked~.tabs__label_1,
+#tab-btn-2:checked~.tabs__label_2  {
+  color: #000000;
+  border-bottom: 5px solid #2E31BC !important;
+}

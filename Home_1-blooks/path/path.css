@@ -1,0 +1,13 @@
+.path {
+    width: 6px;
+    height: 10px;
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content min-content;
+    row-gap: 3px;
+    padding-inline-start: 0px;
+    align-items: center;
+    float: left;
+    padding: 10px 8px 0 10px;
+}
+

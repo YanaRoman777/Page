@@ -1,0 +1,26 @@
+.more-button {
+    width: 40px;
+    height: 30px;
+    background: #ffffff center no-repeat;
+    background: -ms-center -ms-no-repeat;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    background-image: url(../../icons/more.svg);
+    border:none;
+    cursor: pointer;
+}
+
+.more-button:hover {
+    background-image: url(../../icons/more2.svg);
+}
+
+.more-button:active,
+.more-button:active.active {
+    background: #FFFFFF center no-repeat;
+    background-image: url(../../icons/more.svg);
+}
+@media all and (max-width: 500px)  {
+    .more-button{
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.contact__tg {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../../icons/tg.svg);
+    padding-right: 20px;
+}
+
+.contact__tg:hover {
+    background-image: url(../../../icons/tg-hover.svg);
+    cursor: pointer;
+}

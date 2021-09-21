@@ -1,0 +1,10 @@
+.overlay, .overlay-chain, .overlay-settings, .overlay-login, .overlay-password, .overlay-create, .overlay-hamburger {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(245,245,245, .3);
+    z-index: 5;
+}

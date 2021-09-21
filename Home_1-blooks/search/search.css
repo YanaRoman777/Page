@@ -1,0 +1,26 @@
+.search {
+  width: 40px;
+  height: 40px;
+  background: #F5F5F5 center no-repeat;
+  background-image: url(../../icons/search.svg);
+  border-radius: 12px;
+  border:none;
+}
+  
+.search:hover {
+  background: #4347E7 center no-repeat;
+  background-image: url(../../icons/search_light.svg);
+  cursor: pointer;
+}
+  
+.search:active,
+.search:active.active {
+  background: #303290 center no-repeat;
+  background-image: url(../../icons/search_light.svg);
+}
+
+@media all and (max-width: 500px) {
+  .search {
+    height: 32px;
+}
+}

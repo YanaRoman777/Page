@@ -1,0 +1,9 @@
+.navigation__user .menu-sign_in .contact__sign_in {
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .navigation__user .menu-sign_in .exit-button, .navigation__user .menu-sign_in .email-button {
+        display: none;
+    }
+}

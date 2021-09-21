@@ -1,0 +1,28 @@
+.token-info__title {
+    max-width: 300px;
+    color: #000;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    align-self: start;
+}
+
+.token-info__title span{
+    font-style: normal;
+    font-size: 20px;
+    color: #808080;
+    position: absolute;
+}
+
+@media all and (max-width: 930px)  {
+    .token-info__title {
+        font-size: 24px;
+        max-width: 150px;
+    }
+    .token-info__title span {
+        font-weight: 500;
+        font-size: 13px;
+        left: 0;
+        bottom: -20px;
+    }
+}

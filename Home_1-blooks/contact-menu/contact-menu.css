@@ -1,0 +1,84 @@
+.contact-menu {
+    position: absolute;
+    top: 55px;
+    right: 17px;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    width: 120px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    z-index: 4;
+}
+
+.contact-tg {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../icons/tg.svg);
+}
+
+.contact-tg:hover {
+    background-image: url(../../icons/tg-hover.svg);
+}
+.contact-tg:disabled,
+.contact-tg:disabled.disabled  {
+    display: none;
+}
+
+.contact-tw {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../icons/tw.svg);
+}
+
+.contact-tw:hover {
+    background-image: url(../../icons/tw-hover.svg);
+}
+
+.contact-tw:disabled,
+.contact-tw:disabled.disabled {
+    display: none;
+}
+
+.contact-home {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../icons/home.svg);
+}
+
+.contact-home:hover {
+    background-image: url(../../icons/home-hover.svg);
+}
+
+.contact-home:disabled,
+.contact-home:disabled.disabled  {
+    display: none;
+}
+
+@media all and (max-width: 500px)  {
+    .contact-menu {
+        width: 100px;
+        position: static;
+        top: 0;
+        right: 0;
+        background: none;
+        box-shadow: none;
+        justify-content:flex-end;
+    }
+    .contact-tg, .contact-tw {
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/datepicker.css" type="text/css"/>
+    <title>DatePicker - jQuery plugin</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<script type="text/javascript" src="js/datepicker.js"></script>
+    <script type="text/javascript" src="js/eye.js"></script>
+    <script type="text/javascript" src="js/layout.js?ver=1.0.2"></script>
+</head>
+<body>
+
+				<pre>$('#date3').DatePickerClear();</pre>
+				<p>Flat mode, range selection, 3 calendars.</p>
+				<p id="date3"></p>
+			<pre>$('#date3').DatePicker({
+	flat: true,
+	date: ['2008-07-28','2008-07-31'],
+	current: '2008-07-31',
+	calendars: 2,
+	mode: 'range',
+	starts: 1
+});</pre>
+</body>
+</html>

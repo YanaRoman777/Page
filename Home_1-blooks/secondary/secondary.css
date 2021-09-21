@@ -1,0 +1,33 @@
+.secondary {
+    width: 118px;
+    height: 32px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2E31BC;
+}
+
+.secondary:hover {
+    background: #4347E7;
+    color: #FFFFFF;
+}
+
+.secondary:active,
+.secondary:active.active {
+    background: #303290;
+    color: #FFFFFF;
+}
+
+.secondary:disabled,
+.secondary:disabled.disabled {
+    background: #D9DAEF;
+    color: #FFFFFF;
+}

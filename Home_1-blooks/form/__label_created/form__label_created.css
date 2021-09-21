@@ -1,0 +1,10 @@
+.form__label_created {
+    display: block;
+}
+
+@media all and (max-width: 475px) {
+    .form__label_created p {
+        display: flex;
+        flex-direction: column;
+    }
+}

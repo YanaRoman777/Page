@@ -1,0 +1,13 @@
+.modal__paragraph {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+}
+
+
+@media all and (max-width: 420px) {
+    .modal__paragraph {
+        font-weight: 600;
+        font-size: 13px;
+        color: #808080;
+    }
+  }

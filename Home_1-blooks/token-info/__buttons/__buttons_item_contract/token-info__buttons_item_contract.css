@@ -1,0 +1,88 @@
+.token-info__buttons_item_contract {
+    background: #FFFFFF no-repeat;
+    border-radius: 12px;
+    max-width: 244px;
+    height: 32px;
+    padding: 8px 8px 8px 32px;
+    box-sizing: border-box;
+    background-image: url("../../../../icons/VectorBSC.svg");
+    background-position: 8px 8px;
+    font-weight: 600;
+    color: #000000;
+    grid-template-columns: 134px 40px 40px;
+        grid-template-rows: 32px;
+        grid-template-areas:
+            "but copy img";
+    justify-items: center; 
+    column-gap: 3px;  
+}
+
+.token-info__buttons_item_contract img {
+    grid-area: img;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.token-info__buttons_item_contract h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    grid-area: but;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.token-info__buttons_item_contract h6 span {
+    opacity: 0.5;
+}
+
+.token-info__buttons_item_contract .copy-link {
+    grid-area: copy;
+}
+@media all and (max-width: 630px) {
+    .token-info__buttons_item_contract {
+        grid-template-columns: minmax(112px, 134px) 40px 40px;
+        column-gap: 2px;  
+    }
+
+    .token-info__buttons_item_contract h6 {
+        max-width: 112px;
+        width: 100%;
+        max-width: 134px;
+    }
+
+    .token-info__buttons_item_contract .copy-link {
+        border-left: 1px solid  #EEEEF3;
+        border-right: 1px solid  #EEEEF3;
+        width: 40px;
+        height: 32px;
+        box-sizing: border-box;
+        margin-top: -6px;
+    }
+}
+@media all and (max-width: 370px) {
+    .token-info__buttons_item_contract {
+        width: 200px;
+        grid-template-columns: minmax(112px, 134px) 30px 30px;
+        column-gap: 2px;  
+    }
+
+    .token-info__buttons_item_contract h6 {
+        max-width: 112px;
+        width: 100%;
+        max-width: 134px;
+    }
+
+    .token-info__buttons_item_contract .copy-link {
+        border-left: 1px solid  #EEEEF3;
+        border-right: 1px solid  #EEEEF3;
+        width: 30px;
+        height: 32px;
+        box-sizing: border-box;
+        margin-top: -6px;
+    }
+}

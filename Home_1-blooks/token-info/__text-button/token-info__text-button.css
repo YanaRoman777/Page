@@ -1,0 +1,21 @@
+.token-info__text-button {
+    grid-area: buttom-text;
+}
+
+.token-info__text-button p:nth-child(2){
+    display: none;
+    width: 250px;
+    
+    
+}
+.token-info__text-button p span {
+    text-transform: uppercase;
+   
+}
+
+@media all and (max-width: 30px) {
+    .token-info__text-button {
+        max-width: 335px;
+        width: 100%;
+    }    
+}

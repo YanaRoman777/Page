@@ -1,0 +1,5 @@
+.filter-button__notclear_active {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+  }

@@ -1,0 +1,12 @@
+.menu-sign_in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media screen and (max-width: 920px) {
+    .menu-sign_in .contact {
+        display: none;
+    }
+}

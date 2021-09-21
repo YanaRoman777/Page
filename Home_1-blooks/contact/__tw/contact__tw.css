@@ -1,0 +1,14 @@
+.contact__tw {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../../icons/tw.svg);
+    padding-right: 20px;
+}
+
+.contact__tw:hover {
+    background-image: url(../../../icons/tw-hover.svg);
+    cursor: pointer;
+}

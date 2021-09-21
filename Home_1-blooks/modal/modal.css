@@ -1,0 +1,36 @@
+@import url(./__title/modal__title.css);
+@import url(./__close/modal__close.css);
+@import url(./__button/modal__button.css);
+@import url(./__button/modal__button.css);
+@import url(./__login/modal__login.css);
+@import url(./__link/modal__link.css);
+@import url(./__password/modal__password.css);
+@import url(./__create/modal__create.css);
+@import url(./__paragraph/modal__paragraph.css);
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    background-color:#FFFFFF;
+    padding: 30px 25px 20px;
+    box-sizing: border-box;
+    max-width: 440px;
+    width: 100%;
+    z-index: 10;
+}
+
+@media all and (max-width: 425px) {
+    .modal {
+        padding: 20px 15px 15px;
+        height: 100%;
+    }
+}

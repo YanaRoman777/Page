@@ -1,0 +1,39 @@
+.contact__sign_in {
+    display: inline-block;
+    background: #F5F5F5;
+    border-radius: 12px;
+    width: 88px;
+    height: 32px;
+    color: #2E31BC;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-top: 9px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contact__sign_in:hover {
+    background: #4347E7;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contact__sign_in:active,
+.contact__sign_in:active.active {
+    background: #303290;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 920px) {
+    .menu-sign_in .contact__sign_in {
+        display: none;
+        width: 310px;
+    }
+}

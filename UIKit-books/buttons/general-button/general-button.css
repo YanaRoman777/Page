@@ -1,0 +1,30 @@
+.general-button {
+    width: 170px;
+    height: 40px;
+    background: #2E31BC;
+    border: none;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.general-button:hover {
+    background: #4347E7;
+}
+
+.general-button:active,
+.general-button:active.active {
+    background: #303290;
+}
+
+.general-button:disabled,
+.general-button:disabled.disabled {
+    background: #D9DAEF;
+}

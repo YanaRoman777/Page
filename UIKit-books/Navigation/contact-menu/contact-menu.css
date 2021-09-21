@@ -1,0 +1,50 @@
+.contact-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    width: 120px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.contact-tg {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../../icons/tg.svg);
+}
+
+.contact-tg:hover {
+    background-image: url(../../../icons/tg-hover.svg);
+}
+
+.contact-tw {
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../../icons/tw.svg);
+}
+
+.contact-tw:hover {
+    background-image: url(../../../icons/tw-hover.svg);
+}
+
+.contact-home {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border:none;
+    background: center no-repeat;
+    background-image: url(../../../icons/home.svg);
+}
+
+.contact-home:hover {
+    background-image: url(../../../icons/home-hover.svg);
+}

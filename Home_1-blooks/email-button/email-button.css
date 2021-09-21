@@ -1,0 +1,21 @@
+.email-button {
+    width: 169px;
+    height: 32px;
+    background:  #F5F5F5;
+    border-radius: 12px;
+    border: none;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    color: #2E31BC;
+    margin: 0 6px;
+}
+
+.email-button:hover {
+    background: #4347E7;
+    color: #FFFFFF;
+    cursor: pointer;
+}

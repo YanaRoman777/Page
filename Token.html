@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset=utf-8>
+	<link href="Token.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Token_echo</title>
+</head>
+<body class="body">
+    <div class="page">
+        <header class="navigation navigation__token">
+            <nav>
+                <a href="./Token.html" class="token_echo"><img src="./icons/KIT_big.svg" alt="KIT"> Token echo</a>
+            </nav>
+            <nav class="menu-blook menu-blook__active">
+              <div class="menu">
+                    <a href="./Home_1.html" class="menu__link">Tokens</a>
+                    <a href="#" class="menu__link menu__link_active">Echo</a>
+                    <a href="#" class="menu__link">Echoql</a>
+                    <a href="#" class="menu__link">White&nbsp;paper</a>
+                </div>
+            </nav>
+            <nav class="menu-sign_in">
+                <div class="contact">
+                    <a href="" class="contact__tg"></a>
+                    <a href="" class="contact__tw"></a>
+                </div>
+                <a data-modal="login" class="contact__sign_in">Sign in</a>
+                <button class="email-button">name@domain.com</button>
+                <button class="exit-button"></button>
+            </nav>
+            <div class="hamburger" data-modal="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <section class="token-info">
+            <div class="token-info__title-blook">
+                <div class="logo-button">
+                    <button class="logo-button-normal"></button>
+                    <div class="logo-button-hover"></div>
+                </div>
+                <h1 class="token-info__title">Token Echo <span>(ECHO)</span></h1>
+            </div>
+            
+            <h2 class="token-info__subtitle">$2.93</h2>
+            <div>
+            </div>
+            <div class="token-info__buttons">
+                <p>Website</p>
+                <div class="token-info__buttons_item">
+                    <button class="tokenecho-button">tokenecho.com</button>
+                    <button class="tokenecho-button">medium.com</button>
+                    <button class="pen-button"></button>
+                </div>
+                <p>Explorers</p>
+                <div class="token-info__buttons_item">
+                    <button class="tokenecho-button">Bscscan</button>
+                </div>
+                <p>Contract</p>
+                <div class="token-info__buttons_item token-info__buttons_item_contract">
+                   <h6><span>BSC  </span>0xb646...57a88e9</h6> 
+                    <button class="copy-link"></button>
+                    <img src="./icons/fox.svg" alt="fox"></div>
+                <p>Community</p>
+                <div class="token-info__buttons_item">
+                    <div class="contact-tw tokenecho-button">
+                        <a href="#" class="contact-tw">
+                        </a> Twitter</div>
+                    <div class="contact-tg tokenecho-button">
+                        <a href="#" class="contact-tg"></a> Telegram</div>
+                    <button class="pen-button"></button>
+                </div>
+            </div>
+            <table class="token-info__table">
+                <tr>
+                    <td>Liquidity in Pools</td>
+                    <td>$2,300,333</td>
+                </tr>
+                <tr>
+                    <td>24h Liquidity in</td>
+                    <td>$300,333</td>
+                    </tr>
+                    <tr>
+                    <td>24h Liquidity out</td>
+                    <td>$20,333</td>
+                    </tr>
+                </table>
+            <div class="token-info__text token-info__text_mobail">
+               <p>TokenEcho is a tracker of DeFi projects with exclusive real-time tools for their analysis. We want our users to make data-driven decisions faster than others, as soon as the DeFi project is on the chain. We make this possible through the EchoQL protocol.</p> 
+               <p>Key Opportunities:</p>
+               <ul>
+                   <li>Invest before others</li>
+                   <li>Advanced tools for swap traders</li>
+                   <li>A single platform for comparing safety and profitability of DeFi</li>
+               </ul>
+            </div>
+            <button class="general-button general-button_mobail">Request verification</button>
+            <div class="token-info__text-button">
+                <p>Disclaimer: Social links and description are provided by users. If you own the project, please request verification.</p>
+            </div>
+            <div class="block"></div>
+            <button class="pen-button pen-button_mobail"></button>
+        </section>
+        <main class="main main__token">
+            <div class="tabs">
+                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                <label for="tab-btn-1" class="tabs__label tabs__label_1">Liquidity Movements</label>
+                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                <label for="tab-btn-2" class="tabs__label tabs__label_2">Swaps</label>
+                <div id="content-1" class="tabs__content">
+                    <table class="table table__token-echo table__token-echo_1">
+                        <tr class="fixed">
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">Time</p>
+                            </th>
+                            <th><p>Type</p>
+                                <div class="yellow-button">
+                                    DEPOSIT  <button class="close-link"></button>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p>Value</p>
+                                <div class="yellow-button">
+                                    Whale  <button class="close-link"></button>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">Pool Share</p>
+                                <div class="yellow-button">
+                                    13%  <button class="close-link"></button>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">Token Amount</p>
+                            </th>
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p class="path__button-text">Token Amount</p>
+                            </th>
+                            <th><p>From</p>
+                                <div class="yellow-button">
+                                    0x<span>b646</span>...<span>88</span>E9   <button class="close-link"></button>
+                                </div>
+                            </th>
+                            
+                            <th><p>Liquid Pool</p></th>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Deposit</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>3%</td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Withdraw</td>
+                            <td class="turtle">$2,100</td>
+                            <td>&#60; 0.01%</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Deposit</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>5.98%</td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Deposit</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>3%</td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Withdraw</td>
+                            <td class="turtle">$2,100</td>
+                            <td>&#60; 0.01%</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Deposit</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>5.98%</td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Deposit</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>3%</td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Withdraw</td>
+                            <td class="turtle">$2,100</td>
+                            <td>&#60; 0.01%</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Deposit</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>5.98%</td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Deposit</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>3%</td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Withdraw</td>
+                            <td class="turtle">$2,100</td>
+                            <td>&#60; 0.01%</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Deposit</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>5.98%</td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                            <td>PancakeSwap</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="content-2" class="tabs__content">
+                    <table class="table table__token-echo table__token-echo_2">
+                        <tr class="fixed">
+                            <th>
+                                <div class="path">
+                                    <button class="path__button-up"></button>
+                                    <button class="path__button-dowt"></button>
+                                </div>
+                                <p>Time</p>
+                            </th>
+                            <th><p>Type</p>
+                                <div class="yellow-button">
+                                    SELL  <button class="close-link"></button>
+                                </div>
+                            </th>
+                            <th><p>Price</p></th>
+                            <th><p>Value</p>
+                                <div class="yellow-button">
+                                    MHALE  <button class="close-link"></button>
+                                </div>
+                            </th>
+                            <th><p>Token Amount</p></th>
+                            <th><p>Token Amount</p></th>
+                            <th><p>From</p>
+                                <div class="yellow-button">
+                                    0x<span>b646</span>...<span>88</span>E9   <button  class="close-link"></button>
+                                </div>
+                            </th>
+                            
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.93</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Sell</td>
+                            <td>$2.10</td>
+                            <td class="turtle">$2,100</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.32</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9 
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.93</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Sell</td>
+                            <td>$2.10</td>
+                            <td class="turtle">$2,100</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.32</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.93</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Sell</td>
+                            <td>$2.10</td>
+                            <td class="turtle">$2,100</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.32</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:19<span>:34</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.93</td>
+                            <td class="kit_icon">$900<span>,000</span><span>K</span></td>
+                            <td>300,233 <span class="grey">ECHO</span></td>
+                            <td>200,900 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="red">Sell</td>
+                            <td>$2.10</td>
+                            <td class="turtle">$2,100</td>
+                            <td>4,166 <span class="grey">ECHO</span></td>
+                            <td>2,500 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:18<span>:56</span></td>
+                            <td class="green">Buy</td>
+                            <td>$2.32</td>
+                            <td>$2,3<span>00,333</span><span>M</span></td>
+                            <td>800,233 <span class="grey">ECHO</span></td>
+                            <td>533,000 <span class="grey">WBNB</span></td>
+                            <td>0x<span>b646</span>...<span>88</span>E9
+                                <button class="copy-link"></button>
+                                <button class="funnel-link"></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="tabs-buttons">
+                <form id="search_form" class="search_form">
+                    <input type="text" placeholder="Search" class="search_form__input"/>
+                    <button data-modal="search_form__close" class="search_form__close">×</button>
+                </form>
+                <button data-modal="search" class="search"></button>
+                <button data-modal="chain" class="filter-button">Filter
+                    <img src="./icons/notclear.svg" class="filter-button__notclear filter-button__notclear_active" alt="round"></img>
+                </button>
+            </div>
+        </main>
+        <div class="paginator">
+            <div class="paginator__link">
+                <button class="arrow-left-button"></button>
+                <button class="text-button" disabled="disabled">1</button>
+                <button class="text-button">2</button>
+                <button class="text-button">3</button>
+                <button class="text-button">4</button>
+                <button class="text-button">5</button>
+                <button class="text-button">6</button>
+                <button class="text-button">7</button>
+                <button class="text-button">8</button>
+                <button class="text-button">9</button>
+                <button class="text-button">10</button>
+                <button class="text-button">...</button>
+                <button class="text-button">120</button>
+                <button class="arrow-right-button"></button>
+            </div>
+            <select class="select paginator__select">
+                <option class="paginator__option">20 ROWS</option>
+                <option class="paginator__option">50 ROWS</option>
+                <option class="paginator__option">100 ROWS</option>
+            </select>
+        </div>
+        <div class="token-info_mobail"></div>
+        <footer class="footer">
+            © 2021 Token Echo. All rights reserved.<br>
+            <a href="#" class="footer__link">Terms and conditions</a>
+        </footer>
+        <div class="overlay" id="overlay"></div>
+        <div class="overlay-chain">
+            <div class="chain" id="chain">
+                <h3 class="chain__title">Filter</h3>
+                <h3 class="chain__subtitle">Type</h3>
+                <button class="close-link modal__close"></button>
+                <form action="#" class="chain__form form">
+                    <select class="select chain__select">
+                        <option>Deposit</option>
+                    </select>
+                    <section>
+                    <div class="rangeslider fieldset form__section">
+                            <label  class="form__label">Pool Share</label>
+                            <input class="min InputRange" name="range_1" type="range" min="0" max="100" value="0" />
+                            <input class="max InputRange" name="range_1" type="range" min="0" max="100" value="35"/>
+                            <span class="range_min light left">0</span>
+                            <span class="range_max light right">35</span>
+                        </div>
+                        <div class="rangeslider fieldset form__section">
+                            <label  class="form__label">Value</label>
+                            <input class="min InputRange" name="range_2" type="range" min="0" max="2300123" value="0" />
+                            <input class="max InputRange" name="range_2" type="range" min="0" max="2300123" value="2300123"/>
+                            <span class="range_min light left">0</span>
+                            <span class="range_max light right">2.300.333</span>
+                        </div>
+                        <div class="rangeslider fieldset form__section">
+                            <label  class="form__label">Token amount</label>
+                            <input class="min InputRange" name="range_3" type="range" min="0" max="800233" value="0"/>
+                            <input class="max InputRange" name="range_3" type="range" min="0" max="800233" value="800233"/>
+                            <span class="range_min light left">0</span>
+                            <span class="range_max light right">800.233</span>
+                        </div>
+                    </section>
+                </form>
+                <div class="form__buttons form__buttons_token">
+                    <button type="submit" class="general-button form__button_up">UPDATE</button>
+                    <button type="reset" class="clear form__button_clear">CLEAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-login">
+            <div class="modal__login modal" id="login">
+                <h2 class="modal__title">Login</h2>
+                <button class="close-link modal__close"></button>
+                <form action="#" class="form">
+                    <div class="fieldset">
+                        <label  class="form__label">Email
+                            <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                    </div>
+                    <div class="fieldset">
+                        <label  class="form__label">Password <a href="#" data-modal="password" class="form__link_reset">Reset password</a>
+                            <input type="password" name="Password" class="form__item" required placeholder="password"></label>       
+                    </div>
+                    <button type="submit" class="general-button modal__button">SIGN IN</button>
+                    <button type="submit" class="secondary secondary__google modal__button">SIGN IN With Google</button>
+                    <a href="#" data-modal="create" class="link link_sign_in modal__link">Create an Account</a>
+                </form>
+            </div>
+        </div>
+        <div class="overlay-password">
+            <div class="modal__password modal" id="password">
+                <h2 class="modal__title">Reset Password</h2>
+                <button class="close-link modal__close"></button>
+                <form action="#" class="form">
+                    <div class="fieldset">
+                        <label  class="form__label">Email
+                            <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                    </div>                       
+                    <button type="submit" class="general-button modal__button">Reset</button>
+                    <a href="#" data-modal="loginbask" class="link link_sign_in modal__link">← Back to Sign In</a>
+                </form>
+            </div>
+        </div>
+        <div class="overlay-create">
+        <div class="modal__create modal" id="create">
+            <h2 class="modal__title">Create an Account</h2>
+            <a href="#" class="close-link modal__close"></a>
+            <form action="#" class="form">
+                <div class="fieldset">
+                    <label  class="form__label">Email Address
+                        <input type="email" name="Email" class="form__item" required placeholder="name@domain.com"></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Password
+                        <input type="password" name="Password" class="form__item" placeholder="Password" required></label>
+                </div>
+                <div class="fieldset">
+                    <label  class="form__label">Confirm Password
+                        <input type="password" name="ConfirmPassword" class="form__item" required placeholder="Confirm Password"></label>
+                    </div>
+                <button type="submit" class="general-button modal__button">Create account</button>
+                <button type="submit" class="secondary secondary__google modal__button">SIGN Up With Google</button>
+                <p class="modal__paragraph">By signing up you agree to the <a href="">Terms of Service</a></p>
+                <a href="#" class="link link_sign_in modal__link" data-modal="loginBaskBreate">Sign In</a>
+            </form>
+        </div></div>
+        <div class="overlay-hamburger">
+            <div class="modal__hamburger">
+                <div class="contact">
+                    <a href="./Token.html" class="token_echo"><img src="./icons/KIT_big.svg" alt="KIT"> Token echo</a>
+                    <a class="contact__sign_in contact__sign_in_mbl">Sign in</a>
+                    <button class="email-button">name@domain.com</button>
+                    <button class="exit-button"></button>
+                    <a href="#" class="close-link modal__close"></a>
+                </div>
+                <div class="menu">
+                    <a href="./Home_1.html" class="menu__link">Tokens</a>
+                    <a href="#" class="menu__link menu__link_active">Echo</a>
+                    <a href="#" class="menu__link">Echoql</a>
+                    <a href="#" class="menu__link">White paper</a>
+                </div>
+                <div class="contact">
+                    <a href="#" class="contact__tg"></a>
+                    <a href="#" class="contact__tw"></a>
+                </div>
+                <div class="footer">
+                    © 2021 Token Echo. All rights reserved.<br>
+                    <a href="#" class="footer__link">Terms and conditions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a onclick="topFunction()" id="myBtn" class="arrow-up-button"></a>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./Js/script__tokenecho.js"></script>
+</body>
+</html>
